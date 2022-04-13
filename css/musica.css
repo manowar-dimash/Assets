@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.introduccion {
+    width: 100%;
+    height: 90px;
+    margin: 100px auto;
+    background-color: rgb(231, 233, 233);
+}
+
+.texto {
+    text-align: center;
+    color: rgb(170, 168, 168);
+}
+
+.descripcion {
+    text-align: center;
+    color: rgb(170, 168, 168);
+    margin-top: 20px;
+}
+
+.contenedor {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.musica {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.items0 {
+    width: 20%;
+}
+
+.filtro {
+    width: 250px;
+    height: 50px;
+    border-bottom: 1px solid #cecdcd;
+    border-right: 1px solid #cecdcd;
+}
+
+.menu {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.generos {
+    margin-top: 30px;
+}
+
+.estilos {
+    flex-direction: column;
+}
+
+.estilos p {
+    margin-top: 30px;
+}
+
+.vx {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.v {
+    margin-left: 30px;
+    color: rgb(57, 241, 82);
+}
+
+.x {
+    margin-left: 40px;
+    color: rgb(240, 54, 8);
+}
+
+.items1 {
+    width: 80%;
+    flex-direction: column;
+}
+
+.btn {
+    width: 60px;
+    height: 25px;
+    border: 0;
+    background-color: #f2f2f2;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.flecha {
+    height: 50px;
+    margin-top: -20px;
+}
+
+.flecha i {
+    margin-left: 200px;
+}
+
+.ordenar {
+    position: relative;
+    height: 80px;
+}
+
+.cuadro .seleccion {
+    width: 250px;
+    height: 40px;
+    margin-left: 920px;
+    margin-top: 20px;
+}
+
+.pistas-item {
+    height: 100px;
+}
+
+.pistas {
+    margin-top: -30px;
+}
+
+.audio {
+    height: 1200px;
+}
+
+.audio-item {
+    width: 100%;
+    height: 80px;
+    margin-top: 35px;
+    margin-left: 50px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.audio-item a {
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.audio1 {
+    font-size: 40px;
+}
+
+.contenido {
+    height: 80px;
+}
+
+.contenido-item {
+    position: relative;
+    height: 80px;
+}
+
+.titulo {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.grupo {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
+.cancion {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -60px;
+}
+
+.duo {
+    color: darkgray;
+}
+
+.grafico {
+    width: 550px;
+    height: 80px;
+    margin-top: -80px;
+    margin-left: 200px;
+}
+
+.grafico-item {
+    height: 80px;
+}
+
+.canvas {
+    height: 80px;
+}
+
+.canvas1 {
+    width: 550px;
+    height: 80px;
+}
+
+.cronometro {
+    width: 100px;
+    display: flex;
+    margin-top: -60px;
+    margin-left: 730px;
+}
+
+.numeros {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.reloj {
+    width: 15px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.detalles {
+    width: 170px;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 0px;
+}
+
+.descargas {
+    width: 200px;
+    height: 80px;
+    margin-top: -30px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.n-pista {
+    margin-left: 10px;
+}
+
+.descargar {
+    margin-top: 30px;
+}
+
+.paginador {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.paginas {
+    text-align: center;
+}
+
+.paginas a {
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.signo {
+    position: absolute;
+    margin-left: -340px;
+    font-size: 20px;
+}
+
+.otrosigno {
+    position: absolute;
+    margin-left: -280px;
+    font-size: 20px;
+}
+
+.cambio-pagina {
+    margin-left: 30px;
+}
